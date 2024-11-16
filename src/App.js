@@ -15,7 +15,7 @@ import "slick-carousel/slick/slick-theme.css";
 const App = () => {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="/React_come">
       <HomeNav/>
       <Routes>
            <Route path='/' element={<Navigate to="/HomePage" />}/>

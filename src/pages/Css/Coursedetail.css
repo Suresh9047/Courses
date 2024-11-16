@@ -1,0 +1,236 @@
+/* General Page Styling */
+.course-page {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Course Name */
+.Course-name {
+    font-size: 36px;
+    text-align: center;
+    margin: 20px 0;
+    color: #007bff;
+}
+
+.Course-name hr {
+    width: 50%;
+    margin: 10px auto;
+    border: none;
+    border-top: 3px solid #007bff;
+}
+
+/* About Section */
+.about-section {
+    margin: 40px 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-title {
+    text-align: center;
+    font-size: 28px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.about-divider {
+    width: 50px;
+    height: 4px;
+    background-color: #007bff;
+    margin: 0 auto 20px;
+    border: none;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-image-container {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.about-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.about-details {
+    flex: 2;
+}
+
+.about-list {
+    list-style: none;
+    padding: 0;
+}
+
+.about-list-item {
+    margin: 10px 0;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Skills Section */
+.skills {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.skills h1 {
+    font-size: 28px;
+    color: #007bff;
+}
+
+.Skills-learn {
+    margin: 20px auto;
+    padding: 20px;
+}
+.about-list li{
+    font-size: 20px;
+    color: #007bff;
+    padding: 20px 10px;
+}
+
+.skills-card {
+    background: radial-gradient(General);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skills-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.skills-img img {
+   width: 30%;
+   height: 80px;
+    margin-bottom: 10px;
+}
+
+.skills-name h4 {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Key Features Section */
+.key-features {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.key-features h2 {
+    font-size: 28px;
+    color: #007bff;
+}
+
+/* Certificate Section */
+.certificate {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    text-align: center;
+}
+
+.certificate h2 {
+    font-size: 28px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.certificate p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Modules Section */
+.modules {
+    margin: 40px 0;
+}
+
+.modules h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.modules ul {
+    list-style: none;
+    padding: 0;
+    font-size: 16px;
+}
+
+.modules li {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+/* Why Learn Section */
+.why-learn {
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+}
+
+.why-learn h2 {
+    font-size: 28px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.why-learn p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Footer */
+.Footer {
+    background: #007bff;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .skills-card {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .skills h1 {
+        font-size: 1.5rem;
+    }
+
+    .skills-img img {
+        max-width: 60px;
+    }
+
+    .skills-card {
+        margin: 10px 0;
+    }
+}

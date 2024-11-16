@@ -1,0 +1,85 @@
+/* Navbar image */
+.NavbarBrand img {
+  width: 120px;
+  height: 200px;
+ 
+}
+
+.search-form {
+  width: 60%; 
+}
+.drop{
+  font-size: 20px;
+  /* padding: 20px 10px; */
+  color: #0056b3;
+}
+.dropdowns{
+  font-size: 20px;
+  /* padding: 20px 10px; */
+  color: #0056b3;
+}
+.NavDropdown.Item{
+  font-size: 20px;
+  /* padding: 20px 10px; */
+  color: #0056b3;
+}
+
+
+.search-input {
+  font-size: 1rem;
+  padding: 10px 20px;
+}
+
+
+.search-btn {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  padding: 0px 20px;
+  height: 40px;
+  width: 90px;
+}
+
+.search-btn:hover {
+  background-color: #0056b3;
+  color: black;
+}
+
+
+.animated-button {
+  transition: transform 0.3s ease, color 0.3s ease;
+  font-size: 1.1em;
+}
+
+.animated-button:hover {
+  transform: scale(1.05);
+}
+
+#courses-dropdown{
+  font-size: 20px !important;
+  font-weight: 600;
+  color: #0056b3 !important;
+}
+#development-submenu{
+  font-size: 16px !important;
+  font-weight: 600;
+  color: #0056b3 !important;
+}
+
+/* Space out Nav items and ensure they are centered */
+.NavbarNav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  
+}
+
+
+/* Neatly align the navbar items */
+.Nav {
+  display: flex;
+  align-items: center;
+}
+ 
+
+.NavItem {
+  /* margin: 0 20px; */
+}

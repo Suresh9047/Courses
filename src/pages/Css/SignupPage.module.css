@@ -1,0 +1,28 @@
+import React from 'react';
+import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBInput, MDBCheckbox } from 'mdb-react-ui-kit';
+import './LoginSignup.css'; // Import the CSS file for custom styles
+
+function SignupPage() {
+  return (
+    <MDBContainer fluid className="signup-page">
+      <MDBRow className="justify-content-center align-items-center">
+        <MDBCol md="6" className="container">
+          <h3 className="fw-bold text-center">Create an Account</h3>
+          <form>
+            <MDBInput label="Name" id="formControlLg" type="text" size="lg" />
+            <MDBInput label="Email address" id="formControlLg" type="email" size="lg" />
+            <MDBInput label="Password" id="formControlLg" type="password" size="lg" />
+            <MDBInput label="Confirm Password" id="formControlLg" type="password" size="lg" />
+            <MDBCheckbox name="termsCheck" id="termsCheck" label="I agree to the Terms and Conditions" />
+            <MDBBtn className="mb-0 px-5" size="lg">Sign Up</MDBBtn>
+          </form>
+          <p className="small fw-bold mt-2">
+            Already have an account? <a href="/login" className="link-light">Login</a>
+          </p>
+        </MDBCol>
+      </MDBRow>
+    </MDBContainer>
+  );
+}
+
+export default SignupPage;

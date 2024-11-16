@@ -1,0 +1,37 @@
+/* Add this to your CSS file (e.g., ImageSlider.css) */
+.slider-container {
+    width: 100%;
+    
+  }
+ 
+  .slide-image {
+    width: 100%;
+    height: 400px;
+    /* display: block; */
+    border-radius: 10px;
+  }
+  
+  .slick-arrow {
+    background-color: #fff;
+    border: none;
+    /* padding: 10px; */
+  }
+  
+  .slick-prev {
+    left: 30px;
+  }
+  
+  .slick-next {
+    right: 30px;
+  }
+  
+  .slick-dots {
+    bottom: 10px;
+    color: blue;
+   
+  }
+  
+  .slick-dots li button:before {
+    color: orangered; 
+  }
+  

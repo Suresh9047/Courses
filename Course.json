@@ -1,0 +1,321 @@
+[
+    {
+      "id": 1,
+      "title": "Web Development Bootcamp",
+      "category": "Web Development",
+      "description": "Learn HTML, CSS, JavaScript, and build fully functional websites from scratch.",
+      "thumbnail": "/assets/images/web-development.jpg",
+      "instructor": "John Doe",
+      "price": 12000,
+      "videoUrl": "/assets/videos/web-dev-intro.mp4",
+      "modules": [
+        { "id": 1, "title": "Introduction to HTML", "duration": "2 hours" },
+        { "id": 2, "title": "CSS Basics and Advanced Styling", "duration": "3 hours" },
+        { "id": 3, "title": "JavaScript Fundamentals", "duration": "5 hours" },
+        { "id": 4, "title": "Building Interactive Websites", "duration": "4 hours" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "UI/UX Design for Beginners",
+      "category": "UI/UX Design",
+      "description": "Learn the basics of UI/UX design, wireframing, and prototyping to create user-friendly designs.",
+      "thumbnail": "/assets/images/ui-ux-design.jpg",
+      "instructor": "Jane Smith",
+      "price": 9000,
+      "videoUrl": "/assets/videos/ui-ux-intro.mp4",
+      "modules": [
+        { "id": 1, "title": "Understanding UI/UX Principles", "duration": "3 hours" },
+        { "id": 2, "title": "Wireframing and Prototyping", "duration": "4 hours" },
+        { "id": 3, "title": "Design Tools: Figma & Sketch", "duration": "4 hours" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "App Development with React Native",
+      "category": "App Development",
+      "description": "Build native mobile applications for iOS and Android using React Native framework.",
+      "thumbnail": "/assets/images/react-native.jpg",
+      "instructor": "Michael Johnson",
+      "price": 12000,
+      "videoUrl": "/assets/videos/react-native-intro.mp4",
+      "modules": [
+        { "id": 1, "title": "Setting Up React Native Environment", "duration": "2 hours" },
+        { "id": 2, "title": "Building User Interfaces in React Native", "duration": "4 hours" },
+        { "id": 3, "title": "Navigating Between Screens", "duration": "3 hours" },
+        { "id": 4, "title": "Working with APIs in React Native", "duration": "5 hours" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Full Stack Development with Node.js & React",
+      "category": "Full Stack Development",
+      "description": "Learn how to build scalable and responsive full-stack applications using Node.js and React.",
+      "thumbnail": "/assets/images/fullstack-development.jpg",
+      "instructor": "Alice Williams",
+      "price": 15000,
+      "videoUrl": "/assets/videos/fullstack-intro.mp4",
+      "modules": [
+        { "id": 1, "title": "Introduction to Full Stack Development", "duration": "3 hours" },
+        { "id": 2, "title": "Backend Development with Node.js", "duration": "5 hours" },
+        { "id": 3, "title": "Frontend Development with React", "duration": "4 hours" },
+        { "id": 4, "title": "Connecting Backend to Frontend", "duration": "4 hours" },
+        { "id": 5, "title": "Deploying Full Stack Applications", "duration": "3 hours" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Python for Data Science and Machine Learning",
+      "category": "Programming",
+      "description": "Learn Python and its libraries to dive into Data Science, Machine Learning, and AI.",
+      "thumbnail": "/assets/images/python-data-science.jpg",
+      "instructor": "David Brown",
+      "price": 2500,
+      "videoUrl": "/assets/videos/python-data-science.mp4",
+      "modules": [
+        { "id": 1, "title": "Introduction to Python", "duration": "3 hours" },
+        { "id": 2, "title": "NumPy and Pandas for Data Science", "duration": "5 hours" },
+        { "id": 3, "title": "Introduction to Machine Learning", "duration": "6 hours" },
+        { "id": 4, "title": "Building Machine Learning Models", "duration": "5 hours" }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Digital Marketing Masterclass",
+      "category": "Marketing",
+      "description": "Master digital marketing strategies, SEO, PPC, and social media marketing.",
+      "thumbnail": "/assets/images/digital-marketing.jpg",
+      "instructor": "Sophia Davis",
+      "price": 7000,
+      "videoUrl": "/assets/videos/digital-marketing.mp4",
+      "modules": [
+        { "id": 1, "title": "SEO Basics", "duration": "2 hours" },
+        { "id": 2, "title": "Social Media Advertising", "duration": "3 hours" },
+        { "id": 3, "title": "Google Analytics for Marketers", "duration": "4 hours" }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Advanced JavaScript Concepts",
+      "category": "Programming",
+      "description": "Master advanced JavaScript concepts including closures, promises, and asynchronous programming.",
+      "thumbnail": "/assets/images/advanced-javascript.jpg",
+      "instructor": "Lucas Miller",
+      "price": 1800,
+      "videoUrl": "/assets/videos/advanced-javascript.mp4",
+      "modules": [
+        { "id": 1, "title": "JavaScript Closures and Scope", "duration": "3 hours" },
+        { "id": 2, "title": "Promises and Async/Await", "duration": "4 hours" },
+        { "id": 3, "title": "Working with Web APIs", "duration": "5 hours" }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Cloud Computing with AWS",
+      "category": "Cloud Computing",
+      "description": "Learn how to deploy and manage applications on AWS, covering EC2, S3, and Lambda functions.",
+      "thumbnail": "/assets/images/aws.jpg",
+      "instructor": "Rachel Adams",
+      "price": 9000,
+      "videoUrl": "/assets/videos/aws-intro.mp4",
+      "modules": [
+        { "id": 1, "title": "Introduction to Cloud Computing", "duration": "3 hours" },
+        { "id": 2, "title": "Deploying on AWS EC2", "duration": "4 hours" },
+        { "id": 3, "title": "Using S3 for Storage", "duration": "4 hours" },
+        { "id": 4, "title": "Serverless Architecture with AWS Lambda", "duration": "5 hours" }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Cybersecurity Fundamentals",
+      "category": "Security",
+      "description": "Learn the basics of cybersecurity, network security, and how to protect systems from common attacks.",
+      "thumbnail": "/assets/images/cybersecurity.jpg",
+      "instructor": "Daniel Green",
+      "price": 4500,
+      "videoUrl": "/assets/videos/cybersecurity-intro.mp4",
+      "modules": [
+        { "id": 1, "title": "Introduction to Cybersecurity", "duration": "3 hours" },
+        { "id": 2, "title": "Network Security and Firewalls", "duration": "4 hours" },
+        { "id": 3, "title": "Cryptography and Secure Communication", "duration": "5 hours" },
+        { "id": 4, "title": "Common Cyber Attacks and Defense Strategies", "duration": "4 hours" }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Introduction to Artificial Intelligence",
+      "category": "AI",
+      "description": "Get started with AI, covering machine learning, neural networks, and their applications.",
+      "thumbnail": "/assets/images/ai-intro.jpg",
+      "instructor": "James Lee",
+      "price": 2800,
+      "videoUrl": "/assets/videos/ai-intro.mp4",
+      "modules": [
+        { "id": 1, "title": "Overview of Artificial Intelligence", "duration": "3 hours" },
+        { "id": 2, "title": "Machine Learning Basics", "duration": "5 hours" },
+        { "id": 3, "title": "Building Simple AI Models", "duration": "4 hours" },
+        { "id": 4, "title": "Neural Networks and Deep Learning", "duration": "5 hours" }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Full Stack Django Development",
+      "category": "Full Stack Development",
+      "description": "Learn to build complete web applications using Django for the backend and React for the frontend.",
+      "thumbnail": "/assets/images/fullstack-django.jpg",
+      "instructor": "Ethan Scott",
+      "price": 14000,
+      "videoUrl": "/assets/videos/django-fullstack.mp4",
+      "modules": [
+        { "id": 1, "title": "Setting Up Django Environment", "duration": "3 hours" },
+        { "id": 2, "title": "Backend Development with Django", "duration": "5 hours" },
+        { "id": 3, "title": "Frontend Development with React", "duration": "4 hours" },
+        { "id": 4, "title": "Connecting Django with React", "duration": "4 hours" },
+        { "id": 5, "title": "Deploying Full Stack Django Applications", "duration": "3 hours" }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Java Programming for Beginners",
+      "category": "Programming",
+      "description": "Learn Java from scratch, including basic syntax, object-oriented programming, and core Java libraries.",
+      "thumbnail": "/assets/images/java.jpg",
+      "instructor": "Grace Taylor",
+      "price": 5000,
+      "videoUrl": "/assets/videos/java-intro.mp4",
+      "modules": [
+        { "id": 1, "title": "Introduction to Java", "duration": "4 hours" },
+        { "id": 2, "title": "Control Structures in Java", "duration": "3 hours" },
+        { "id": 3, "title": "Object-Oriented Programming with Java", "duration": "6 hours" },
+        { "id": 4, "title": "Working with Java Collections", "duration": "4 hours" }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "MEAN Stack Development",
+      "category": "Full Stack Development",
+      "description": "Build dynamic web applications with the MEAN stack (MongoDB, Express, Angular, Node.js).",
+      "thumbnail": "/assets/images/mean-stack.jpg",
+      "instructor": "Oliver Harris",
+      "price": 12000,
+      "videoUrl": "/assets/videos/mean-stack.mp4",
+      "modules": [
+        { "id": 1, "title": "Introduction to MEAN Stack", "duration": "3 hours" },
+        { "id": 2, "title": "Backend Development with Node.js and Express", "duration": "5 hours" },
+        { "id": 3, "title": "Frontend Development with Angular", "duration": "4 hours" },
+        { "id": 4, "title": "Connecting MongoDB with Express and Angular", "duration": "4 hours" }
+      ]
+    },
+        {
+          "id": 14,
+          "title": "Data Structures and Algorithms in JavaScript",
+          "category": "Programming",
+          "description": "Master data structures and algorithms to improve coding skills and problem-solving abilities.",
+          "thumbnail": "/assets/images/data-structures.jpg",
+          "instructor": "Emma Wilson",
+          "price": 8000,
+          "videoUrl": "/assets/videos/data-structures.mp4",
+          "modules": [
+            { "id": 1, "title": "Introduction to Data Structures", "duration": "2 hours" },
+            { "id": 2, "title": "Arrays and Linked Lists", "duration": "3 hours" },
+            { "id": 3, "title": "Sorting and Searching Algorithms", "duration": "4 hours" },
+            { "id": 4, "title": "Advanced Algorithms", "duration": "5 hours" }
+          ]
+        },
+        {
+          "id": 15,
+          "title": "Ethical Hacking and Penetration Testing",
+          "category": "Security",
+          "description": "Learn ethical hacking techniques and penetration testing methods to secure systems.",
+          "thumbnail": "/assets/images/ethical-hacking.jpg",
+          "instructor": "William Carter",
+          "price": 6000,
+          "videoUrl": "/assets/videos/ethical-hacking.mp4",
+          "modules": [
+            { "id": 1, "title": "Introduction to Ethical Hacking", "duration": "3 hours" },
+            { "id": 2, "title": "Network Scanning and Enumeration", "duration": "4 hours" },
+            { "id": 3, "title": "Exploitation and Vulnerability Testing", "duration": "5 hours" }
+          ]
+        },
+        {
+          "id": 16,
+          "title": "Blockchain and Cryptocurrency Basics",
+          "category": "Finance",
+          "description": "Understand blockchain technology and the fundamentals of cryptocurrency.",
+          "thumbnail": "/assets/images/blockchain.jpg",
+          "instructor": "Noah Martinez",
+          "price": 7500,
+          "videoUrl": "/assets/videos/blockchain-intro.mp4",
+          "modules": [
+            { "id": 1, "title": "Introduction to Blockchain", "duration": "3 hours" },
+            { "id": 2, "title": "Cryptocurrency Basics", "duration": "3 hours" },
+            { "id": 3, "title": "Smart Contracts", "duration": "4 hours" },
+            { "id": 4, "title": "Future of Blockchain", "duration": "3 hours" }
+          ]
+        },
+        {
+          "id": 17,
+          "title": "Photoshop Essentials for Beginners",
+          "category": "Graphic Design",
+          "description": "Learn how to use Adobe Photoshop to create and edit graphics and photos.",
+          "thumbnail": "/assets/images/photoshop.jpg",
+          "instructor": "Mia Moore",
+          "price": 5000,
+          "videoUrl": "/assets/videos/photoshop-intro.mp4",
+          "modules": [
+            { "id": 1, "title": "Introduction to Photoshop", "duration": "2 hours" },
+            { "id": 2, "title": "Basic Photo Editing Techniques", "duration": "3 hours" },
+            { "id": 3, "title": "Working with Layers and Masks", "duration": "3 hours" }
+          ]
+        },
+        {
+          "id": 18,
+          "title": "DevOps Foundations",
+          "category": "DevOps",
+          "description": "Learn the basics of DevOps, including CI/CD, automation, and containerization.",
+          "thumbnail": "/assets/images/devops.jpg",
+          "instructor": "Lucas Taylor",
+          "price": 10000,
+          "videoUrl": "/assets/videos/devops-intro.mp4",
+          "modules": [
+            { "id": 1, "title": "Introduction to DevOps", "duration": "3 hours" },
+            { "id": 2, "title": "Continuous Integration and Continuous Deployment", "duration": "4 hours" },
+            { "id": 3, "title": "Automation with Jenkins", "duration": "3 hours" },
+            { "id": 4, "title": "Containerization with Docker", "duration": "4 hours" }
+          ]
+        },
+        {
+          "id": 19,
+          "title": "Introduction to Augmented Reality",
+          "category": "AR/VR",
+          "description": "Learn the basics of AR and create your own augmented reality applications.",
+          "thumbnail": "/assets/images/augmented-reality.jpg",
+          "instructor": "Amelia Johnson",
+          "price": 9000,
+          "videoUrl": "/assets/videos/ar-intro.mp4",
+          "modules": [
+            { "id": 1, "title": "What is Augmented Reality?", "duration": "2 hours" },
+            { "id": 2, "title": "Building AR Experiences", "duration": "4 hours" },
+            { "id": 3, "title": "AR Tools and Platforms", "duration": "3 hours" }
+          ]
+        },
+        {
+          "id": 20,
+          "title": "Big Data with Hadoop",
+          "category": "Data Science",
+          "description": "Explore the world of big data and learn how to work with Hadoop and its ecosystem.",
+          "thumbnail": "/assets/images/big-data.jpg",
+          "instructor": "Benjamin Clark",
+          "price": 11000,
+          "videoUrl": "/assets/videos/big-data-intro.mp4",
+          "modules": [
+            { "id": 1, "title": "Introduction to Big Data", "duration": "3 hours" },
+            { "id": 2, "title": "Working with Hadoop", "duration": "5 hours" },
+            { "id": 3, "title": "HDFS and MapReduce", "duration": "4 hours" },
+            { "id": 4, "title": "Big Data Analytics", "duration": "5 hours" }
+          ]
+        }
+    ]
+    
+  
+  

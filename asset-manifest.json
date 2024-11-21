@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Courses/static/css/main.85631d14.css",
+    "main.js": "/Courses/static/js/main.ff8059b9.js",
+    "static/media/pythonfull-Photoroom.png": "/Courses/static/media/pythonfull-Photoroom.ab46e90a4f3d7801ff29.png",
+    "static/media/VTS Logo_page-0001.jpg": "/Courses/static/media/VTS Logo_page-0001.20eca4645c960144c2c7.jpg",
+    "static/media/react.png": "/Courses/static/media/react.c6e70fbecfa33fdc7753.png",
+    "static/media/banner1.png": "/Courses/static/media/banner1.7c1cd931379c285b98b4.png",
+    "static/media/gibernate.png": "/Courses/static/media/gibernate.b29d0c824941c0e62de1.png",
+    "static/media/css.png": "/Courses/static/media/css.4d5703788e166ce182d1.png",
+    "static/media/certificate1.webp": "/Courses/static/media/certificate1.c60f426ea0dc06f14163.webp",
+    "static/media/powerbi.png": "/Courses/static/media/powerbi.a1be8bd811060c2b8ee3.png",
+    "static/media/banner2.avif": "/Courses/static/media/banner2.923f614bc1581c6ffaed.avif",
+    "static/media/html.png": "/Courses/static/media/html.4a24d093beaf85818309.png",
+    "static/media/banner1.avif": "/Courses/static/media/banner1.78e0df35d3b33387e31f.avif",
+    "static/media/js.png": "/Courses/static/media/js.1f3825d68c538bc6b56d.png",
+    "static/media/javafull1.avif": "/Courses/static/media/javafull1.c4fe77cdef1b5e1e0436.avif",
+    "static/media/dataanalytics2.avif": "/Courses/static/media/dataanalytics2.017a7dd55ad0fef5120c.avif",
+    "static/media/pythonfull1.avif": "/Courses/static/media/pythonfull1.7ea2efba73bd2fe1dcfc.avif",
+    "static/media/slick.svg": "/Courses/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Courses/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Courses/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Courses/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Courses/index.html",
+    "main.85631d14.css.map": "/Courses/static/css/main.85631d14.css.map",
+    "main.ff8059b9.js.map": "/Courses/static/js/main.ff8059b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85631d14.css",
+    "static/js/main.ff8059b9.js"
+  ]
+}

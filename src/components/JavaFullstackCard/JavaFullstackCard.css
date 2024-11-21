@@ -1,0 +1,34 @@
+.listsmodules{
+    font-size: 16px;
+    padding: 12px 0px;
+    color: #007bff;
+    list-style-type: none
+
+}  
+.syllabus-content h5{
+    font-size: 27px;
+    color: black;
+    font-weight: 800;
+    padding: 10px 10px;
+}
+.java-card{
+    position: relative;
+}
+
+.module-image {
+    width: 100px;
+    height: 50px;
+    margin: 10px 0;
+  }
+  
+/* .java-card{
+    background-color: #007bff !important;
+    border-radius: 20px;
+
+} */
+.java-cards{
+    border-top: 2px solid #007bff;
+    border-left: 2px solid #007bff;
+    /* border-right: 2px solid #007bff; */
+    border-radius: 10px;
+}

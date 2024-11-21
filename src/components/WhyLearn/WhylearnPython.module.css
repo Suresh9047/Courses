@@ -1,0 +1,92 @@
+/* WhylearnPython.module.css */
+.coursePage {
+  margin-top: 20px;
+}
+
+.imgFluid {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  transition: all 0.3s ease;
+  outline: none;
+  border: none;
+  width: 120px;
+  border-radius: 20px;
+  height: 40px;
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Change button color on hover */
+  transform: scale(1.1); /* Slightly increase the button size */
+}
+
+.content {
+  padding-top: 20px;
+}
+
+.animateHeading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  animation: slideInFromLeft 1s ease-out; /* Slide-in animation for the heading */
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Icons Animation - Automatic Bounce and Rotate */
+.animateIcon {
+  font-size: 1.5rem;
+  animation: bounce 1s ease-in-out infinite, rotate 2s ease-in-out infinite; /* Bounce and rotate animations */
+}
+
+/* Bounce effect for icons */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Rotation effect for icons */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Smooth fade-in animation for the content */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.content {
+  animation: fadeIn 1.5s ease-out; /* Content fades in smoothly */
+}
+
+.pythonWhy li {
+  margin-bottom: 10px;
+}

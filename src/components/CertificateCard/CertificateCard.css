@@ -1,0 +1,36 @@
+/* CertificationPage.css */
+.certification-page {
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+.certification-page h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.certification-card {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.certification-card h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.certification-card p {
+  color: #555;
+}
+
+.certification-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.certification-card a {
+  text-decoration: none;
+}

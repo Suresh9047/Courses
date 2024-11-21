@@ -1,0 +1,132 @@
+/* General Container Styling */
+.key-features-container {
+  font-family: 'Arial', sans-serif;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1200px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  overflow: hidden;
+  z-index: 10;
+}
+
+/* Tabs Navigation */
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tabs .button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #5f72be, #9b23ea);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tabs .button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.tabs .active {
+  background: linear-gradient(135deg, #9b23ea, #5f72be);
+}
+
+/* Content Styling */
+.content {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-in-out;
+ 
+}
+
+.content h2 {
+  text-align: center;
+  color: #5f72be;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
+
+.content hr {
+  width: 50%;
+  margin: 0 auto 20px;
+  border: 0;
+  border-top: 3px solid #9b23ea;
+}
+
+/* List Items Styling */
+.keypy {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  z-index: 11;
+}
+
+.keypy li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px;
+  background: #f0f0f0;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.keypy li:hover {
+  background: #e0e7ff;
+}
+
+.keypy li strong {
+  margin-left: 10px;
+  color: #333;
+  font-weight: 600;
+}
+
+.staricon, .star-icon {
+  font-size: 1.5rem;
+  color: #9b23ea;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .tabs .button {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
+
+  .content h2 {
+    font-size: 1.5rem;
+  }
+
+  li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  li strong {
+    margin: 5px 0 0;
+  }
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

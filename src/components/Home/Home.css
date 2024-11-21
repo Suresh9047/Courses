@@ -1,0 +1,66 @@
+/* Card Styling */
+.java-card {
+  margin-bottom: 20px;
+}
+
+.syllabus-content {
+  margin-top: 15px;
+}
+
+.syllabus-content ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.syllabus-content li {
+  padding: 5px 0;
+}
+
+button {
+  margin-top: 10px;
+}
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.shakings-arrow {
+  animation: shake 0.5s ease-in-out infinite;
+
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px); /* Bounce higher */
+  }
+}
+
+.shaking-arrow {
+  animation: bounce 1s ease infinite;
+  font-size: 50px;
+  color: orangered;
+  padding: 0 20px;
+
+}
+.headc{
+   font-size: 25px;
+   color: #007bff;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 600;
+}
+
